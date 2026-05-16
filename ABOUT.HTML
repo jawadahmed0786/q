@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Us</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f5f5f5;
+    }
+
+    /* HEADER */
+
+    header{
+      background:#111;
+      padding:20px 60px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .logo{
+      color:red;
+      font-size:32px;
+      font-weight:bold;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:20px;
+      font-size:15px;
+    }
+
+    /* HERO SECTION */
+
+    .hero{
+      background-size: cover;
+      background:url(aboutpic.jpg) center/cover;
+      height:650px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:rgb(255, 255, 255);
+      text-align:center;
+    }
+
+    .hero h1{
+      font-size:60px;
+    }
+
+    .hero p{
+      margin-top:10px;
+      font-size:22px;
+    }
+
+    /* ABOUT SECTION */
+
+    .about{
+      padding:80px 60px;
+      background:white;
+    }
+
+    .about-container{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:50px;
+      flex-wrap:wrap;
+    }
+
+    .about-image{
+      flex:1;
+    }
+
+    .about-image img{
+      width:100%;
+      border-radius:15px;
+    }
+
+    .about-text{
+      flex:1;
+    }
+
+    .about-text h2{
+      font-size:42px;
+      margin-bottom:20px;
+      color:#222;
+    }
+
+    .about-text p{
+      color:#555;
+      line-height:30px;
+      margin-bottom:20px;
+      font-size:17px;
+    }
+
+    .btn{
+      display:inline-block;
+      background:red;
+      color:white;
+      padding:12px 25px;
+      text-decoration:none;
+      border-radius:5px;
+      margin-top:10px;
+    }
+
+    /* SERVICES */
+
+    .services{
+      padding:70px 40px;
+      background:#f0f0f0;
+      text-align:center;
+    }
+
+    .services h2{
+      font-size:40px;
+      margin-bottom:50px;
+      color:#222;
+    }
+
+    .service-boxes{
+      display:flex;
+      justify-content:center;
+      gap:25px;
+      flex-wrap:wrap;
+    }
+
+    .service{
+      background:white;
+      width:300px;
+      padding:30px;
+      border-radius:12px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .service h3{
+      margin:20px 0 15px;
+      color:#222;
+    }
+
+    .service p{
+      color:#666;
+      line-height:25px;
+    }
+
+    /* TEAM */
+
+    .team{
+      padding:80px 40px;
+      background:white;
+      text-align:center;
+    }
+
+    .team h2{
+      font-size:40px;
+      margin-bottom:50px;
+      color:#222;
+    }
+
+    .team-members{
+      display:flex;
+      justify-content:center;
+      gap:30px;
+      flex-wrap:wrap;
+    }
+
+    .member{
+      width:280px;
+      background:#f5f5f5;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .member img{
+      width:100%;
+      height:280px;
+      object-fit:cover;
+    }
+
+    .member-content{
+      padding:20px;
+    }
+
+    .member-content h3{
+      margin-bottom:10px;
+      color:#222;
+    }
+
+    .member-content p{
+      color:#777;
+    }
+
+    /* FOOTER */
+
+    footer{
+      background:#111;
+      color:white;
+      text-align:center;
+      padding:40px;
+    }
+
+    footer p{
+      margin-top:10px;
+      color:#ccc;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="logo">K.K.FOOD</div>
+
+    <nav>
+      <a href="KKFOOD.HTML">Home</a>
+      <a href="MENU.HTML">Order Food</a>
+      <a href="ABOUT.HTML">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="delivery.html">DELIVERY</a>
+      <a href="contect.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div>
+      <h1>About Us</h1>
+      <p>Fresh Food & Fast Delivery</p>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about">
+
+    <div class="about-container">
+
+      <div class="about-image">
+
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1000">
+
+      </div>
+
+      <div class="about-text">
+
+        <h2>Welcome To Our Food Website</h2>
+
+        <p>
+          We provide fresh and delicious food made with high quality ingredients.
+          Our mission is to deliver tasty meals to your doorstep quickly and safely.
+        </p>
+
+        <p>
+          We have expert chefs and a professional team that prepares healthy and
+          hygienic food for our customers every day.
+        </p>
+
+        <a href="#" class="btn">Read More</a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-boxes">
+
+      <div class="service">
+
+        <h3>Fast Delivery</h3>
+
+        <p>
+          We deliver food quickly to your home with safe packaging and quality service.
+        </p>
+
+      </div>
+
+      <div class="service">
+
+        <h3>Fresh Food</h3>
+
+        <p>
+          All meals are prepared fresh daily using healthy ingredients and recipes.
+        </p>
+
+      </div>
+
+      <div class="service">
+
+        <h3>Best Quality</h3>
+
+        <p>
+          We focus on high quality food and customer satisfaction every time.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TEAM -->
+
+  <section class="team">
+
+    <h2>Our Team</h2>
+
+    <div class="team-members">
+
+      <div class="member">
+
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000">
+
+        <div class="member-content">
+
+          <h3>Chef Ahmed</h3>
+
+          <p>Master Chef</p>
+
+        </div>
+
+      </div>
+
+      <div class="member">
+
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000">
+
+        <div class="member-content">
+
+          <h3>Sarah Khan</h3>
+
+          <p>Food Manager</p>
+
+        </div>
+
+      </div>
+
+      <div class="member">
+
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000">
+
+        <div class="member-content">
+
+          <h3>Ali Raza</h3>
+
+          <p>Delivery Manager</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h2>FOOD WEBSITE</h2>
+
+    <p>© 2026 All Rights Reserved</p>
+
+  </footer>
+
+</body>
+</html>
